@@ -19,143 +19,75 @@
 
         <main>
             <h2>Privacy Policy</h2>
-            <p class="date">Last updated: November 5, 2025</p>
+            <p class="date">Updated: October 2025</p>
+
+            <p>
+                This Privacy Policy explains what information the <strong>Invoice Generator</strong> Chrome extension processes
+                when you use it, why we do so, and how your data is handled.
+            </p>
 
             <section>
-                <h3>1. Introduction</h3>
+                <h3>I. Data processed by the extension</h3>
                 <p>
-                    Welcome to the Privacy Policy of <strong>Invoice Generator</strong>. 
-                    We take your privacy seriously and are committed to protecting your personal information. 
-                    This policy explains how we collect, use, and protect your data when you use our extension.
+                    The extension stores only your <strong>invoice settings and preferences</strong> (e.g., hourly rate, hours per day,
+                    company/project data, holiday selection, PDF language) in your browser using
+                    <code>chrome.storage.sync</code> (with <code>localStorage</code> as a fallback). <strong>No invoices</strong> or personal text you type are
+                    sent to any servers.
+                </p>
+                <p>
+                    Your data is used <strong>locally</strong> to calculate totals and generate PDFs. <strong>No account system</strong> or login is used.
                 </p>
             </section>
 
             <section>
-                <h3>2. Information We Collect</h3>
-                <p>The Invoice Generator extension collects and processes the following information:</p>
+                <h3>II. Exchange rate requests</h3>
+                <p>
+                    To assist with <strong>USD→BRL</strong> conversion, the extension may request the current rate from
+                    <code>economia.awesomeapi.com.br</code>. We do not send any personal data in this request; it is a simple <em>GET</em>
+                    and we only receive public quotation data. If it fails, a <strong>local fallback rate</strong> is used.
+                </p>
+            </section>
+
+            <section>
+                <h3>III. Technical and usage information</h3>
                 <ul>
-                    <li><strong>Invoice Data:</strong> Information you manually enter when creating invoices, including:
-                        <ul>
-                            <li>Sender data (name, address, contact information)</li>
-                            <li>Customer data (name, address, contact information)</li>
-                            <li>Invoice items (description, quantity, prices)</li>
-                            <li>Dates and invoice numbers</li>
-                        </ul>
-                    </li>
-                    <li><strong>Configuration Preferences:</strong> Your language, currency, and display format preferences</li>
-                    <li><strong>Templates:</strong> Custom invoice templates you create or modify</li>
+                    <li>We do not collect <strong>analytics</strong> or telemetry.</li>
+                    <li>The extension may <strong>detect the browser/interface language</strong> to initialize translations.</li>
+                    <li>It uses the <code>"tabs"</code> permission only to <strong>open the settings page</strong> or this privacy page in a new tab
+                        when you click relevant links.</li>
+                    <li>The extension <strong>does not request host permissions</strong> and <strong>does not read or modify</strong> the content of websites you visit.</li>
                 </ul>
             </section>
 
             <section>
-                <h3>3. How We Use the Information</h3>
-                <p>The collected information is used exclusively to:</p>
-                <ul>
-                    <li>Generate invoices according to your specifications</li>
-                    <li>Save your data locally for future use</li>
-                    <li>Personalize your extension experience</li>
-                    <li>Allow exporting invoices in PDF or other formats</li>
-                </ul>
-                <p><strong>Important:</strong> We do not use your information for advertising, marketing, or any other purpose unrelated to the core functionality of the extension.</p>
+                <h3>IV. Cookies and local storage</h3>
+                <p>
+                    We do not set cookies. Preferences are stored in <code>chrome.storage.sync</code> (synced with your Google account
+                    when available) or in <code>localStorage</code> as a fallback. You can delete this data at any time by uninstalling
+                    the extension or by <strong>clearing the extension site data</strong> in your browser.
+                </p>
             </section>
 
             <section>
-                <h3>4. Data Storage</h3>
+                <h3>V. Your rights and contact</h3>
                 <p>
-                    <strong>All data is stored locally on your device</strong> using Chrome's storage API (chrome.storage.local). 
-                    This means that:
+                    You can <strong>access</strong>, <strong>review</strong>, or <strong>delete</strong> the data saved by this extension at any time. All information
+                    remains locally in your browser's storage. For questions, concerns, or feature requests, contact:
                 </p>
                 <ul>
-                    <li>Your information is <strong>never</strong> sent to external servers</li>
-                    <li>No data is transmitted over the internet</li>
-                    <li>You have full control over your data</li>
-                    <li>Data remains in your browser and can be deleted at any time</li>
+                    <li><strong>Email:</strong> <a href="mailto:muriloduartegoncalves@gmail.com">muriloduartegoncalves@gmail.com</a></li>
                 </ul>
             </section>
 
             <section>
-                <h3>5. Data Sharing</h3>
+                <h3>VI. Changes to this policy</h3>
                 <p>
-                    <strong>We do not share any personal information with third parties.</strong> 
-                    The extension operates completely offline and has no integration with external services that could access your data.
-                </p>
-                <p>
-                    The only exceptions are when you voluntarily:
-                </p>
-                <ul>
-                    <li>Export an invoice and share it with third parties</li>
-                    <li>Save an invoice to cloud services of your choice</li>
-                </ul>
-            </section>
-
-            <section>
-                <h3>6. Data Security</h3>
-                <p>
-                    We have implemented security measures to protect your information:
-                </p>
-                <ul>
-                    <li>Data is stored locally using secure Chrome APIs</li>
-                    <li>We do not collect unnecessary sensitive data</li>
-                    <li>The extension does not request excessive permissions</li>
-                    <li>The extension code follows security best practices</li>
-                </ul>
-            </section>
-
-            <section>
-                <h3>7. Your Rights</h3>
-                <p>You have the right to:</p>
-                <ul>
-                    <li><strong>Access:</strong> View all data stored by the extension</li>
-                    <li><strong>Modify:</strong> Edit or update your information at any time</li>
-                    <li><strong>Delete:</strong> Remove all data stored by the extension</li>
-                    <li><strong>Export:</strong> Backup your data in JSON or PDF format</li>
-                </ul>
-                <p>
-                    To exercise these rights, you can use the built-in features in the extension or uninstall it, 
-                    which will automatically remove all stored data.
+                    We may update this policy from time to time. Relevant changes will be reflected by updating the date at
+                    the top of this page.
                 </p>
             </section>
 
-            <section>
-                <h3>8. Cookies and Tracking Technologies</h3>
-                <p>
-                    The extension <strong>does not use cookies</strong> or tracking technologies. 
-                    We do not collect information about your browsing behavior or internet usage.
-                </p>
-            </section>
-
-            <section>
-                <h3>9. Changes to This Policy</h3>
-                <p>
-                    We may update this Privacy Policy periodically. When we make significant changes, 
-                    we will notify you through an update in the extension description on the Chrome Web Store and update 
-                    the "Last updated" date at the top of this page.
-                </p>
-            </section>
-
-            <section>
-                <h3>10. Contact</h3>
-                <p>
-                    If you have questions, concerns, or requests related to this Privacy Policy, 
-                    please contact us:
-                </p>
-                <ul>
-                    <li><strong>Email:</strong> <a href="mailto:privacy@invoicegenerator.com">privacy@invoicegenerator.com</a></li>
-                    <li><strong>GitHub:</strong> <a href="https://github.com/muriloduarte/invoice-generator-docs" target="_blank">github.com/muriloduarte/invoice-generator-docs</a></li>
-                </ul>
-            </section>
-
-            <section>
-                <h3>11. Legal Compliance</h3>
-                <p>
-                    This policy complies with:
-                </p>
-                <ul>
-                    <li>General Data Protection Law (LGPD) - Brazil</li>
-                    <li>General Data Protection Regulation (GDPR) - European Union</li>
-                    <li>Chrome Web Store Developer Program Policies</li>
-                </ul>
-            </section>
+            <p><em>Invoice Generator</em></p>
         </main>
 
         <footer>

@@ -109,7 +109,7 @@ This privacy policy template is designed to comply with:
 
 For questions about this documentation:
 
-- **Email**: privacy@invoicegenerator.com
+- **Email**: muriloduartegoncalves@gmail.com
 - **GitHub Issues**: [Create an issue](https://github.com/muriloduarte/invoice-generator-docs/issues)
 
 ## 📄 License
