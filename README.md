@@ -1,6 +1,7 @@
 # 📄 Invoice Generator - Privacy Policy & Documentation
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-success)](https://muriloduarte.github.io/invoice-generator-docs/)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Install-blue)](https://chromewebstore.google.com/detail/invoice-generator/fcmclkdodbgjldmejkpmfjpkoedaicbj)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 This repository contains the privacy policy and terms of use documentation for the **Invoice Generator** Chrome extension.
@@ -9,7 +10,11 @@ This repository contains the privacy policy and terms of use documentation for t
 
 The documentation is hosted via GitHub Pages and accessible at:
 
-**https://muriloduarte.github.io/invoice-generator-docs/**
+[muriloduarte.github.io/invoice-generator-docs](https://muriloduarte.github.io/invoice-generator-docs/)
+
+Also available on the Chrome Web Store:
+
+[chromewebstore.google.com/detail/invoice-generator/fcmclkdodbgjldmejkpmfjpkoedaicbj](https://chromewebstore.google.com/detail/invoice-generator/fcmclkdodbgjldmejkpmfjpkoedaicbj)
 
 ## 📋 What's Included
 
@@ -20,7 +25,7 @@ The documentation is hosted via GitHub Pages and accessible at:
 
 ## 🗂️ Repository Structure
 
-```
+```text
 invoice-generator-docs/
 ├── index.html           # Privacy Policy (Portuguese)
 ├── privacy-en.html      # Privacy Policy (English)
@@ -35,11 +40,11 @@ invoice-generator-docs/
 ### 1. Enable GitHub Pages
 
 1. Go to **Settings** → **Pages** in this repository
-2. Under **Source**, select:
+1. Under **Source**, select:
    - Branch: `main`
    - Folder: `/ (root)`
-3. Click **Save**
-4. Wait ~2-10 minutes for the site to be published
+1. Click **Save**
+1. Wait ~2-10 minutes for the site to be published
 
 ### 2. Update Your Chrome Extension
 
@@ -54,12 +59,14 @@ Add the following to your `manifest.json`:
 ### 3. Update Chrome Web Store Listing
 
 1. Go to your extension's page in the [Chrome Web Store Developer Dashboard](https://chrome.google.com/webstore/devconsole)
-2. Navigate to the **Privacy** section
-3. Add the Privacy Policy URL:
-   ```
-   https://muriloduarte.github.io/invoice-generator-docs/
-   ```
-4. Save and publish the changes
+1. Navigate to the **Privacy** section
+1. Add the Privacy Policy URL:
+   
+  ```text
+  https://muriloduarte.github.io/invoice-generator-docs/
+  ```
+
+1. Save and publish the changes
 
 ## 📝 Updating the Privacy Policy
 
@@ -109,7 +116,7 @@ This privacy policy template is designed to comply with:
 
 For questions about this documentation:
 
-- **Email**: muriloduartegoncalves@gmail.com
+- **Email**: [muriloduartegoncalves@gmail.com](mailto:muriloduartegoncalves@gmail.com)
 - **GitHub Issues**: [Create an issue](https://github.com/muriloduarte/invoice-generator-docs/issues)
 
 ## 📄 License
